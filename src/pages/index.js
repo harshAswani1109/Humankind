@@ -9,6 +9,7 @@ import Page3 from "../../components/landingPages/page3";
 import Page4 from "../../components/landingPages/page4";
 import Page7 from "../../components/landingPages/page7";
 import Page10 from "../../components/landingPages/page10";
+import Page11 from "../../components/landingPages/page11";
 
 export default function Home() {
   return (
@@ -20,12 +21,14 @@ export default function Home() {
         <div className="flex justify-center items-center flex-col">
           <Navbar />
           <div className="mt-32 flex flex-col gap-16">
-            {/* <Page1 />
+            <Page1 />
             <Page2 />
             <Page3 />
             <Page4 />
-            <Page7 /> */}
+            <Page7 />
             <Page10 />
+
+            <Page11 />
           </div>
           <Footer />
         </div>
