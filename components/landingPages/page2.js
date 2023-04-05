@@ -2,7 +2,7 @@ import Image from "next/image";
 import pg2 from "../../public/assets/p2.png";
 const Page2 = () => {
   return (
-    <footer>
+    <div>
       <div className="px-[5%] ">
         <div className="flex justify-center items-center flex-row max-sm:flex-col max-sm:ml-[10px] border-4 border-black w-full h-full rounded-3xl">
           <div className="flex justify-center items-center w-1/2 p-2 max-sm:w-11/12">
@@ -19,14 +19,14 @@ const Page2 = () => {
               and making a positive impact in the world.
             </p>
             <div className="w-full ">
-              <button class="bg-yellow-400 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full w-32 h-14">
+              <button class="bg-yellow-300 hover:bg-yellow-400 text-black font-bold py-2 px-4 rounded-full w-32 h-14">
                 Learn More
               </button>
             </div>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 export default Page2;

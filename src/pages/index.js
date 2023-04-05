@@ -5,6 +5,7 @@ import Footer from "../../components/footer";
 import Navbar from "../../components/navbar/navbar";
 import Page1 from "../../components/landingPages/page1";
 import Page2 from "../../components/landingPages/page2";
+import Page3 from "../../components/landingPages/page3";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           <div className="mt-32 flex flex-col gap-16">
             <Page1 />
             <Page2 />
+            <Page3 />
           </div>
           <Footer />
         </div>
