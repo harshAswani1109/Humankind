@@ -20,14 +20,13 @@ export default function Home() {
       <main>
         <div className="flex justify-center items-center flex-col">
           <Navbar />
-          <div className="mt-32 flex flex-col gap-16">
+          <div className="mt-16 flex flex-col gap-16">
             <Page1 />
             <Page2 />
             <Page3 />
             <Page4 />
             <Page7 />
             <Page10 />
-
             <Page11 />
           </div>
           <Footer />
