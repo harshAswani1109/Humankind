@@ -8,6 +8,7 @@ import Page2 from "../../components/landingPages/page2";
 import Page3 from "../../components/landingPages/page3";
 import Page4 from "../../components/landingPages/page4";
 import Page7 from "../../components/landingPages/page7";
+import Page10 from "../../components/landingPages/page10";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
             <Page3 />
             <Page4 />
             <Page7 /> */}
+            <Page10 />
           </div>
           <Footer />
         </div>
