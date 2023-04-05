@@ -6,6 +6,7 @@ import Navbar from "../../components/navbar/navbar";
 import Page1 from "../../components/landingPages/page1";
 import Page2 from "../../components/landingPages/page2";
 import Page3 from "../../components/landingPages/page3";
+import Page4 from "../../components/landingPages/page4";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
             <Page1 />
             <Page2 />
             <Page3 />
+            <Page4 />
           </div>
           <Footer />
         </div>
